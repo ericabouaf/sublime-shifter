@@ -1,0 +1,16 @@
+{
+  "selector": "source.js",
+
+  "cmd": ["shifter", "$file"],
+
+  "file_regex": "file:(.+)\\]",
+  "line_regex": "(\\d+),(\\d+)",
+
+  "osx": {
+    "path": "/usr/local/bin:/opt/local/bin"
+  },
+
+  "windows": {
+    "cmd": ["shifter.cmd", "$file"]
+  }
+}
