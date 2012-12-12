@@ -1,7 +1,9 @@
 {
   "selector": "source.js",
 
-  "cmd": ["shifter", "$file"],
+  "cmd": ["shifter", "--clean"],
+
+   "working_dir": "$file_path/..",
 
   "file_regex": "file:(.+)\\]",
   "line_regex": "(\\d+),(\\d+)",
