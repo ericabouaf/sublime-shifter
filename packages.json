@@ -2,8 +2,8 @@
    "schema_version": "0.1",
    "packages": [
       {
-         "name": "Sublime Shifter",
-         "description": "Launch shifter for YUI3 modules from Sublime Text",
+         "name": "Shifter",
+         "description": "Build YUI3 modules with shifter",
          "author": "neyric",
          "homepage": "https://github.com/neyric/sublime-shifter",
          "last_modified": "2013-03-20 19:00:00",
